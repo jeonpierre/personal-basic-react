@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 .nav-bar {
     background: #547895;
     width: 100%;
@@ -10,6 +12,7 @@
 nav,
 .nav-links {
   display: flex;
+  font-family: 'Poppins', sans-serif; 
 }
 
 nav {
@@ -27,13 +30,22 @@ nav {
   font-size: 1.5rem;
 }
 
-a {
+.nav-links-left {
+    justify-content: left;
+}
+
+.nav-links-right {
+    justify-content: right, space-between;
+
+}
+
+.nav-links-right a {
   color: black;
   text-decoration: none;
   text-decoration-color: rgb(255, 255, 255);
 }
 
-a:hover {
+.nav-links-right a:hover {
   color: #9aded4;
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -42,10 +54,18 @@ a:hover {
 
 .name {
     font-size: 2rem;
+    font-family: 'Poppins', sans-serif; 
 }
+
+
+.nav-links-right:hover {
+    color: #111
+  }
+
 
 .name:hover {
   cursor: default;
+
 }
 
 
