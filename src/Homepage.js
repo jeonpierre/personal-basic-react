@@ -44,7 +44,7 @@ const Homepage = () => (
         <div className="section-container">
         <div className="section__pic-container">
             <img
-            src="./about-pic.png"
+            src="Profile Picture.png"
             alt="Profile picture"
             className="about-pic"
             />
@@ -97,15 +97,17 @@ const Homepage = () => (
         <h2 class="experience-sub-title">Data Analysis</h2>
         <div class="article-container">
           <article>
-            <div class="details-container">
+            <div class="details-container-xp">
               <img
                 src="checkmark.png"
                 alt="Experience icon"
                 class="icon"
               />
               <div> {/* Adjusted nesting */}
+              <div class="article-content">
                 <h3>Excel</h3>
                 <p>Experienced</p>
+              </div>
               </div>
             </div>
           </article>
@@ -208,7 +210,7 @@ const Homepage = () => (
           <article>
             <div class="details-container">
               <img
-                src="./assets/checkmark.png"
+                src="checkmark.png"
                 alt="Experience icon"
                 class="icon"
               />
