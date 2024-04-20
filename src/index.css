@@ -5,7 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #54545c ;
+
+  background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+  backdrop-filter: blur(2rem);
+  background-size: flex;
+  background-position: fixed;
+
 }
 
 code {

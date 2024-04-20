@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-.nav-bar {
-    background: #547895;
+.nav-bar-background {
+    background: rgba(255, 255, 255, 0.46);
     width: 100%;
     height: 75px;
     position: absolute;
     top: 0;
+}
 
+.nav-bar {
+    background: rgba(255, 255, 255, 0.46);
+    backdrop-filter: blur(1px); /* Adjust the blur value here */
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 0;
 }
 
 nav,
