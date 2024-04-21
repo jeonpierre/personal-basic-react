@@ -57,8 +57,8 @@ const Homepage = () => (
                 alt="Experience icon"
                 className="icon"
                 />
-                <h3>Experience</h3>
-                <p>2+ years <br />Data & Business Analysis, Product Managment</p>
+                <h3 className= "xp">Experience</h3>
+                <p>2+ years Data & Business Analysis</p>
             </div>
             <div className="details-container">
                 <img
@@ -97,7 +97,6 @@ const Homepage = () => (
         <h2 class="experience-sub-title">Data Analysis</h2>
         <div class="article-container">
           <article>
-            <div class="details-container-xp">
               <img
                 src="checkmark.png"
                 alt="Experience icon"
@@ -109,10 +108,8 @@ const Homepage = () => (
                 <p>Experienced</p>
               </div>
               </div>
-            </div>
           </article>
           <article>
-            <div class="details-container">
               <img
                 src="checkmark.png"
                 alt="Experience icon"
@@ -122,7 +119,6 @@ const Homepage = () => (
                 <h3>SQL</h3>
                 <p>Experienced</p>
               </div>
-            </div>
           </article>
           <article>
             <div class="details-container">
@@ -152,7 +148,7 @@ const Homepage = () => (
           </article>
         </div>
       </div>
-      <div class="details-container">
+      <div class="details-container-projects">
         <h2 class="experience-sub-title">Business Analysis</h2>
         <div class="article-container">
           <article>
